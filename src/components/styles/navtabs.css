@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@500&display=swap");
-
-:root {
-  --primary-white: #fff;
-  --primary-turquoise: rgb(24, 210, 219);
-}
-
 .nav-link {
   font-family: "Roboto", sans-serif;
   color: #fff;
+  font-weight: 100;
   text-transform: uppercase;
   color: var(--primary-white);
   margin-right: 1rem;
   border-top: 3px solid transparent;
+}
+
+.navbar {
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .nav-link {
@@ -22,7 +22,7 @@
 .nav-link.active,
 .nav-link:focus,
 .nav-link:hover {
-  border-top-color: var(--primary-turquoise);
+  border-top-color: var(--primary-white);
 }
 .navbar {
   background-color: rgb(8, 7, 7) !important;

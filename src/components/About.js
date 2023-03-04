@@ -1,11 +1,11 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
-import Skills from "./Skills";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataabout, meta, skills, services } from "../content";
+import "./styles/about.css";
+import headshot from "./assets/hel-headshot2.png";
 
-function About(props) {
+function About() {
   return (
     <>
       <HelmetProvider>

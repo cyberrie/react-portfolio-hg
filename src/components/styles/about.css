@@ -20,8 +20,8 @@
 
 .progress {
   height: 5px;
-  background: var(--secondary);
-  border-radius: 0;
+  background: white;
+  border-radius: 5px;
   box-shadow: none;
   margin-bottom: 30px;
   overflow: visible;

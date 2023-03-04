@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../content";
 import "./styles/home.css";
 import sky from "./assets/sky-home.jpg";
+import headshot from "./assets/hel-headshot1.png";
 
 function Home() {
   return (
@@ -23,6 +24,9 @@ function Home() {
             <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
               <div className="align-self-center ">
                 <div className="intro mx-auto">
+                  <div>
+                    <img className="h_img" src={headshot} />
+                  </div>
                   <h2 className="mb-1x">{introdata.title}</h2>
                   <h1 className="fluidz-48 mb-1x">
                     <Typewriter

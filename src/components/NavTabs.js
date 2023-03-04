@@ -9,7 +9,7 @@ import "./styles/navtabs.css";
 
 function NavTabs() {
   return (
-    <Navbar className="navbar" sticky="top" collapseOnSelect expand="lg">
+    <Navbar className="navbar d-flex" sticky="top" collapseOnSelect expand="lg">
       <Container>
         {/* <Navbar.Brand href="#home">
           <img
@@ -22,7 +22,7 @@ function NavTabs() {
         </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbar-toggler" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <NavLink
               to="/react-portfolio-hg"
               end
