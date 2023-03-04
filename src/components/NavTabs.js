@@ -11,7 +11,7 @@ function NavTabs() {
   return (
     <Navbar className="navbar" sticky="top" collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        {/* <Navbar.Brand href="#home">
           <img
             alt=""
             src={headshot}
@@ -19,7 +19,7 @@ function NavTabs() {
             height="50"
             className="d-inline-block align-top"
           />{" "}
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbar-toggler" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

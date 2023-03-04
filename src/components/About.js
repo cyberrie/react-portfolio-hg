@@ -1,25 +1,104 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Skills from "./Skills";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Container, Row, Col } from "react-bootstrap";
+import { dataabout, meta, skills, services } from "../content";
 
 function About(props) {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="skills" role="button" className="btn btn-link">
+    <>
+      <HelmetProvider>
+        <Container className="About-header">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title> About | {meta.title}</title>
+            <meta name="description" content={meta.description} />
+          </Helmet>
+          <Row className="mb-5 mt-3 pt-md-3">
+            <Col lg="8">
+              <h1 className="display-4 mb-4">About me</h1>
+              <hr className="t_border my-4 ml-0 text-left" />
+            </Col>
+          </Row>
+          <Row className="sec_sp">
+            <Col lg="5">
+              <h3 className="color_sec py-4">{dataabout.title}</h3>
+            </Col>
+            <Col lg="7" className="d-flex align-items-center">
+              <div>
+                <p>{dataabout.aboutme}</p>
+              </div>
+            </Col>
+          </Row>
+          {/* <Row className=" sec_sp">
+            <Col lg="5">
+              <h3 className="color_sec py-4">Work Timline</h3>
+            </Col>
+            <Col lg="7">
+              <table className="table caption-top">
+                <tbody>
+                  {worktimeline.map((data, i) => {
+                    return (
+                      <tr key={i}>
+                        <th scope="row">{data.jobtitle}</th>
+                        <td>{data.where}</td>
+                        <td>{data.date}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </Col>
+          </Row> */}
+          <Row className="sec_sp">
+            <Col lg="5">
+              <h3 className="color_sec py-4">Skills</h3>
+            </Col>
+            <Col lg="7">
+              {skills.map((data, i) => {
+                return (
+                  <div key={i}>
+                    <h3 className="progress-title">{data.name}</h3>
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        style={{
+                          width: `${data.value}%`,
+                        }}
+                      >
+                        <div className="progress-value">{data.value}%</div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </Col>
+          </Row>
+          <Row className="sec_sp">
+            <Col lang="5">
+              <h3 className="color_sec py-4">services</h3>
+            </Col>
+            <Col lg="7">
+              {services.map((data, i) => {
+                return (
+                  <div className="service_ py-4" key={i}>
+                    <h5 className="service__title">{data.title}</h5>
+                    <p className="service_desc">{data.description}</p>
+                  </div>
+                );
+              })}
+            </Col>
+          </Row>
+        </Container>
+      </HelmetProvider>
+    </>
+  );
+}
+export default About;
+
+{
+  /* <Link to="skills" role="button" className="btn btn-link">
         Show Skills
       </Link>
       <Link to="about" role="button" className="btn btn-link">
@@ -27,8 +106,5 @@ function About(props) {
       </Link>
       <Routes>
         <Route path="skills" element={<Skills />} />
-      </Routes>
-    </div>
-  );
+      </Routes> */
 }
-export default About;
