@@ -1,9 +1,9 @@
 import React from "react";
 
-function Blog() {
+function Contact() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1>Contact Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -23,4 +23,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Contact;

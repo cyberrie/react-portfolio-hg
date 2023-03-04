@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import NavTabs from "./components/NavTabs";
+import Projects from "./components/Projects";
+import Home from "./components/Home";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavTabs />
+        {/* Wrap Route elements in a Routes component */}
+        <Routes>
+          {/* Define routes using the Route component to render different page components at different paths */}
+          {/* Define a default route that will render the Home component */}
+          <Route path="/react-portfolio-hg" element={<Home />} />
+          <Route path="/react-portfolio-hg/about/*" element={<About />} />
+          <Route path="/react-portfolio-hg/projects" element={<Projects />} />
+          {/* Define a route that will have descendant routes */}
+          <Route path="/react-portfolio-hg/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
-export default App;
