@@ -6,11 +6,12 @@ import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 // import headshot from "./assets/hel-headshot2.png";
 import "../styles/navtabs.css";
+import { FaBars } from "react-icons/fa";
 
 function NavTabs() {
   return (
     <Navbar className="navbar d-flex" sticky="top" collapseOnSelect expand="lg">
-      <Container>
+      <Container className="nav-container">
         {/* <Navbar.Brand href="#home">
           <img
             alt=""
@@ -20,7 +21,10 @@ function NavTabs() {
             className="d-inline-block align-top"
           />{" "}
         </Navbar.Brand> */}
-        <Navbar.Toggle aria-controls="navbar-toggler" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          children={<FaBars style={{ color: "white" }} />}
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <NavLink
