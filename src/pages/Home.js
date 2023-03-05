@@ -2,7 +2,6 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { introdata } from "../content";
 import "../styles/home.css";
-import sky from "../assets/sky-home.jpg";
 import headshot from "../assets/hel-headshot1.png";
 
 function Home() {
