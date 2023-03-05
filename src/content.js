@@ -7,9 +7,10 @@ const meta = {
 const introdata = {
   title: "Hi, I'm Helena!",
   animated: {
-    first: "I am a Frontend Developer, Digital Designer & Dreamer",
+    first: "I am a Frontend Developer",
     second: "I can code cool websites",
     third: "I develop user-friendly apps",
+    fourth: "I love music and ramen",
   },
 };
 

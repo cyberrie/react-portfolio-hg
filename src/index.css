@@ -5,14 +5,12 @@
 :root {
   --bg-color: #0c0c0c;
   --primary-color: #0d0d0d;
-  --primary-turquoise: rgb(114, 117, 117);
   /* --secondary-color: #fff; */
   /* --text-color: #fff; */
   /* --text-color-2: #fff; */
-  --text-color-3: rgb(204, 0, 0);
   --overlay-color: rgb(12 12 12 / 63%);
-  --pc1-rgb: rgb(163, 242, 238);
-  --pc1-rgba: rgba(163, 242, 238, 0.88);
+  --pc2-rgb: rgb(163, 242, 238);
+  --pc2-rgba: rgba(163, 242, 238, 0.88);
 }
 
 body {
