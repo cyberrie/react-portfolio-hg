@@ -7,7 +7,8 @@
   --primary-color: #0d0d0d;
   --pc2-rgb: rgb(242, 85, 7);
   --pc2-rgba: rgba(242, 170, 134, 0.939);
-  --pc3-rgb: rgb(161, 51, 183);
+  --secondary-color: #fff;
+  --overlay-color: rgb(12 12 12 / 63%);
 }
 
 body {

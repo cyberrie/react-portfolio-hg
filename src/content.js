@@ -63,12 +63,12 @@ const services = [
   {
     title: "Web Apps",
     description:
-      "I create custom web apps that are resonsive and user friendly. From ideation to deployment, I work closely with my clients to ensure their satisfaction at every step. Let's collaborate to create something truly special for your business",
+      "I create custom web apps that are resonsive and user friendly. From ideation to deployment, I work closely with my clients to ensure their satisfaction at every step. Let's collaborate to create something truly special for your business.",
   },
   {
     title: "UI & UX Design",
     description:
-      "I create user-centered interfaces that are not only visually appealing, but also easy to navigate and interact with",
+      "I create user-centered interfaces that are not only visually appealing, but also easy to navigate and interact with.",
   },
 ];
 
