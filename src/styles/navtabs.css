@@ -6,6 +6,7 @@
   color: var(--primary-white);
   margin-right: 1rem;
   border-top: 3px solid transparent;
+  font-size: 1.8rem !important;
 }
 
 .navbar {
@@ -16,14 +17,17 @@
 
 .nav-link {
   color: #fff !important;
-  font-size: 1.2rem !important;
 }
 
 .nav-link.active,
 .nav-link:focus,
 .nav-link:hover {
-  border-top-color: var(--primary-white);
+  border-top-color: var(--pc2-rgb);
 }
 .navbar {
-  background-color: rgb(8, 7, 7) !important;
+  background-color: transparent !important;
+}
+
+.nav-container .container {
+  background-color: transparent !important;
 }
