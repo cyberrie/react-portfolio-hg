@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "description": "This is the description of Project 1",
-    "linkDeployed": "https://project1.com",
-    "linkRepo": "https://project1.com",
-    "demo": "project1.jpg"
+    "title": "MoodMix",
+    "description": "Web App that generates meal and drink recipe, based on user mood selection. Retrieves data from third-party APIs",
+    "linkDeployed": "cyberrie.github.io/MoodMix/",
+    "linkRepo": "https://github.com/cyberrie/MoodMix",
+    "demo": "./assets/moodmix-demo.gif"
   },
   {
     "id": 2,
-    "title": "Project 1",
-    "description": "This is the description of Project 1",
-    "linkDeployed": "https://project1.com",
-    "linkRepo": "https://project1.com",
-    "demo": "project1.jpg"
+    "title": "Team Profile Generator",
+    "description": "This is a Node.js command-line application takes in information about employees on a software engineering team, then generates a webpage. Developed using Test-Driven Development ",
+    "linkDeployed": "https://drive.google.com/file/d/1xLqoTUv84jBp6aRmcj81XzrplRk0anPL/view",
+    "linkRepo": "https://github.com/cyberrie/yourTeamProfile-Generator",
+    "demo": "./assets/team.html-screenshot.png"
   },
   {
     "id": 3,
-    "title": "Project 1",
-    "description": "This is the description of Project 1",
-    "linkDeployed": "https://project1.com",
-    "linkRepo": "https://project1.com",
-    "demo": "project1.jpg"
+    "title": "Weather Dashboard",
+    "description": "A weather dashboard that runs in the browser. Server API was used to retrieve weather data for cities. ",
+    "linkDeployed": "https://cyberrie.github.io/Weather-Dashboard/",
+    "linkRepo": "https://github.com/cyberrie/Weather-Dashboard",
+    "demo": "./assets/weather-forecast.gif"
   },
   {
     "id": 4,
-    "title": "Project 1",
-    "description": "This is the description of Project 1",
-    "linkDeployed": "https://project1.com",
-    "linkRepo": "https://project1.com",
-    "demo": "project1.jpg"
+    "title": "Dily Planner",
+    "description": "A simple calendar application that allows a user to save events for each hour of the day, powered by jQuery",
+    "linkDeployed": "https://cyberrie.github.io/Daily-Planner/",
+    "linkRepo": "https://github.com/cyberrie/Daily-Planner",
+    "demo": "./assets/daily-planner.gif"
   },
   {
     "id": 5,
-    "title": "Project 1",
-    "description": "This is the description of Project 1",
-    "linkDeployed": "https://project1.com",
-    "linkRepo": "https://project1.com",
-    "demo": "project1.jpg"
+    "title": "JavaScript Quiz",
+    "description": "JavaScript Quiz, developed using Web APIs",
+    "linkDeployed": "https://cyberrie.github.io/Web-APIs-JavaScript-Quiz/",
+    "linkRepo": "https://github.com/cyberrie/Web-APIs-JavaScript-Quiz",
+    "demo": "./assets/coding-quiz.gif"
   },
   {
     "id": 6,
     "title": "Project 1",
-    "description": "This is the description of Project 1",
-    "linkDeployed": "https://project1.com",
-    "linkRepo": "https://project1.com",
-    "demo": "project1.jpg"
+    "description": "This app enables the user to generate a random password based on criteria they’ve selected.",
+    "linkDeployed": "https://cyberrie.github.io/Password-Generator/",
+    "linkRepo": "https://github.com/cyberrie/Password-Generator",
+    "demo": "./assets/password-generator.png"
   }
 ]

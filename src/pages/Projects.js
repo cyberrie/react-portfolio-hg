@@ -8,7 +8,7 @@ function Projects() {
     <div>
       <h1>Projects</h1>
       {projectDetails.map((project) => {
-        // console.log(<Project key={project.id} project={project} />);
+        console.log(<Project key={project.id} project={project} />);
         <Project key={project.id} project={project} />;
       })}
     </div>
