@@ -10,16 +10,19 @@ function Home() {
     <>
       <section id="home" className="home">
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
+          {/* <div
             className="h_bg-image order-1 order-lg-2 h-100 "
             style={{ backgroundImage: `url(${sky})` }}
-          ></div>
+          ></div> */}
+
+          <div className=" avatar-container order-1 order-lg-2">
+            <div className="h_img-wrap ">
+              <img className="h_img" src={headshot} />
+            </div>
+          </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
-                <div className="h_img-wrap">
-                  <img className="h_img" src={headshot} />
-                </div>
                 <h2 className="intro-title">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x typewriter-text">
                   <Typewriter

@@ -5,7 +5,7 @@ const meta = {
 };
 
 const introdata = {
-  title: "Hi, I'm Helena!",
+  title: "Hi, I'm Helena Gilja!",
   animated: {
     first: "I am a Frontend Developer",
     second: "I can code cool websites",
@@ -17,53 +17,64 @@ const introdata = {
 const dataabout = {
   title: "about me",
   aboutme:
-    "With a fairy tale twist, I am not your average tech enthusiast. My journey has been shaped by a range of experiences, from a professional sports career to a background in physiotherapy, biomedical sciences, clinical management and business development - all of which have equipped me with a unique set of skills and a keen eye for detail. My experiences have taught me that technology can be a game-changer in any field. And now, I'm ready to use my magic to make an impact in the tech world.",
+    "I am not your average tech enthusiast. My journey has been shaped by a range of experiences, from a professional sports career to a background in physiotherapy, biomedical sciences, clinical management and business development - all of which have equipped me with a unique set of skills and a keen eye for detail. My experiences have taught me that technology can be a game-changer in any field. And now, I'm ready to use my magic to make an impact in the tech world.",
 };
 
 const skills = [
   {
     name: "JavaScript",
-    value: 80,
+    value: 60,
+  },
+  {
+    name: "React",
+    value: 48,
+  },
+  {
+    name: "jQuery",
+    value: 65,
+  },
+  {
+    name: "Node.js",
+    value: 35,
   },
   {
     name: "CSS",
-    value: 82,
+    value: 62,
+  },
+  {
+    name: "HTML",
+    value: 85,
   },
   {
     name: "Bootstrap",
     value: 82,
   },
   {
-    name: "React",
-    value: 60,
+    name: "Figma",
+    value: 42,
   },
   {
-    name: "Jquery",
-    value: 85,
-  },
-  {
-    name: "Node.js",
-    value: 85,
+    name: "Canva",
+    value: 32,
   },
 ];
 
 const services = [
   {
-    title: "Mobile and Web Apps",
+    title: "Web Apps",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "I create custom web apps that are resonsive and user friendly. From ideation to deployment, I work closely with my clients to ensure their satisfaction at every step. Let's collaborate to create something truly special for your business",
   },
   {
     title: "UI & UX Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "I create user-centered interfaces that are not only visually appealing, but also easy to navigate and interact with",
   },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "helena.gilja@gmail.com",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+  description: "Feel free to reach out with any questions",
 };
 
 const socialprofils = {
