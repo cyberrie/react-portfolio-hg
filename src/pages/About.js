@@ -2,8 +2,8 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataabout, meta, skills, services } from "../content";
-import "./styles/about.css";
-import headshot from "./assets/hel-headshot2.png";
+import "../styles/about.css";
+import headshot from "../assets/hel-headshot2.png";
 
 function About() {
   return (

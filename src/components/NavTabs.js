@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import headshot from "./assets/hel-headshot2.png";
-import "./styles/navtabs.css";
+// import NavDropdown from "react-bootstrap/NavDropdown";
+// import headshot from "./assets/hel-headshot2.png";
+import "../styles/navtabs.css";
 
 function NavTabs() {
   return (
