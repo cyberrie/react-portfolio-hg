@@ -20,13 +20,16 @@ function Projects() {
           return (
             <div key={i} className="po_item">
               <h4 className="po_title">{project.title}</h4>
+              <img src={project.image} alt={project.title} />
 
-              <a href={project.linkDeployed} target="_blank">
-                <img src={project.image} alt={project.title} />
-              </a>
-              <a href={project.linkRepo} target="_blank">
-                <h5> Repository</h5>
-              </a>
+              <div className="content">
+                <a href={project.linkDeployed} target="_blank" rel="noreferrer">
+                  Web Application
+                </a>
+                <a href={project.linkRepo} target="_blank" rel="noreferrer">
+                  <h5> Repository</h5>
+                </a>
+              </div>
             </div>
           );
           // console.log(<Project key={project.id} project={project} />);

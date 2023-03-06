@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "title": "Project 1",
+    "title": "Pass Generator",
     "description": "This app enables the user to generate a random password based on criteria they’ve selected.",
     "linkDeployed": "https://cyberrie.github.io/Password-Generator/",
     "linkRepo": "https://github.com/cyberrie/Password-Generator",
