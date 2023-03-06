@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { introdata } from "../content";
 import "../styles/home.css";
-import headshot from "../assets/hel-headshot1.png";
+import headshot from "../assetsSrc/hel-headshot1.png";
 
 function Home() {
   return (

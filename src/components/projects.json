@@ -5,7 +5,7 @@
     "description": "Web App that generates meal and drink recipe, based on user mood selection. Retrieves data from third-party APIs",
     "linkDeployed": "https://cyberrie.github.io/MoodMix/",
     "linkRepo": "https://github.com/cyberrie/MoodMix",
-    "image": "./assets/moodmix-imgPath.gif"
+    "image": "./assets/moodmix-demo.gif"
   },
   {
     "id": 2,

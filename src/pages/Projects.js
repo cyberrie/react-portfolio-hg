@@ -1,9 +1,9 @@
 import React from "react";
-import projectDetails from "../projects.json";
+import projectDetails from "../components/projects.json";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/projects.css";
 
-import dailyplanner from "../assets/daily-planner.gif";
+// import dailyplanner from "../assets/daily-planner.gif";
 
 // will use reusable project component and map projects from json
 function Projects() {
