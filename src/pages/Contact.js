@@ -1,14 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import {
-  faLinkedin,
-  faGithub,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import "../styles/contact.css";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faClipboard, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
@@ -21,17 +16,21 @@ function Contact() {
       </Row>
 
       <Row>
-        <h4>hey hey hey </h4>
+        <h2 className="contact-h">Let's work together!</h2>
       </Row>
 
-      <Row>
+      <Row style={{ maxWidth: "1000px" }}>
         <Col>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/helenagilja/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} size="6x" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="6x"
+              color="rgb(242, 85, 7)"
+            />
           </a>
         </Col>
         <Col>
@@ -40,7 +39,11 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} size="6x" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="6x"
+              color="rgb(242, 85, 7)"
+            />
           </a>
         </Col>
         <Col>
@@ -49,7 +52,25 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faEnvelope} size="6x" />
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="6x"
+              color="rgb(242, 85, 7)"
+            />
+          </a>
+        </Col>
+
+        <Col>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faClipboard}
+              size="6x"
+              color="rgb(242, 85, 7)"
+            />
           </a>
         </Col>
       </Row>
