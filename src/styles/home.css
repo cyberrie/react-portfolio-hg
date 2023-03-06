@@ -7,8 +7,8 @@ section {
   transition: all 0.5s ease-in;
 }
 .h_img-wrap {
-  height: 500px;
-  width: 500px;
+  height: 470px;
+  width: 470px;
   margin-right: -10px;
   border: 2px solid var(--pc1-rgb);
   border-radius: 50%;
@@ -20,8 +20,8 @@ section {
 .h_img {
   padding-left: 20px;
   padding-bottom: 20px;
-  height: 518px;
-  width: 500px;
+  height: 480px;
+  width: 480px;
 }
 
 .intro-title {
