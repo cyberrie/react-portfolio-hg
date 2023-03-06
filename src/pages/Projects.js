@@ -2,8 +2,10 @@ import React from "react";
 import projectDetails from "../components/projects.json";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/projects.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// import dailyplanner from "../assets/daily-planner.gif";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
 
 // will use reusable project component and map projects from json
 function Projects() {
@@ -24,10 +26,20 @@ function Projects() {
 
               <div className="content">
                 <a href={project.linkDeployed} target="_blank" rel="noreferrer">
-                  Web Application
+                  <FontAwesomeIcon
+                    icon={faWindowMaximize}
+                    size="3x"
+                    color="white"
+                    border="1px"
+                  />
                 </a>
                 <a href={project.linkRepo} target="_blank" rel="noreferrer">
-                  <h5> Repository</h5>
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    size="3x"
+                    color="white"
+                    border="1px"
+                  />
                 </a>
               </div>
             </div>
