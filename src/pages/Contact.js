@@ -66,7 +66,7 @@ function Contact() {
 
         <Col>
           <a
-            href="https://drive.google.com/file/d/1H0XY03-g_qUePOw905bdCT8jSocVGpiI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Bxf4qP01q582WzCHU3jv1iPzCsMwD8ND/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
