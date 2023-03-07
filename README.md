@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Overview](#overview)
+- [Required Components](#acceptance-criteria)
+- [Portfolio Demo](#portfolio-demo)
+- [Links](#links)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+I've built React portfolio site to solidify my React skills and showcase my current project to my potential employer.
 
-### `npm start`
+## Required Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This portfolio was built whilst keeping in mind below:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Navigation using React Router, dynamicrendering, or another third party router
 
-### `npm test`
+- Portfolio must render at least 6 components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - App: as a top-level component, rendering all child components
 
-### `npm run build`
+  - Header: must render across every page and contain a Navbar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Home Page: landing page with name, an avatar, brand statement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - Pojects Page: must render 6 instances of the project component dynamically
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Project can be reusable component that ingests JSON data and renders a single instance for each project
 
-### `npm run eject`
+  - Contact Page: email, GitHub, LinkedIn, CV, Contact Form
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Portfolio Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The following animation shows the web aplication's appearance:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![portfolio demo](./assets/portfolio-demo3.gif)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Links
 
-## Learn More
+[Helena's Portfolio Page](https://cyberrie.github.io/helenagilja-portfolio/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## My Process
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built with...
 
-### Code Splitting
+- React
+- Mobile-first design
+- React Bootstrap and vanilla Bootstrap
+- CSS
+- HTML
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## What I learned
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+## Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Useful Resources
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+©️ Helena Gilja
 
-### Deployment
+- Website - [Helena - Web Developer](https://cyberrie.github.io/helenagilja-portfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub - [cyberrie](https://github.com/cyberrie)
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [rafgraph](https://github.com/rafgraph/spa-github-pages/tree/gh-pages): helped me resolve 404 refresh error in deployed React App. 404.html and script from index.html of the repo utilised
+
+-
