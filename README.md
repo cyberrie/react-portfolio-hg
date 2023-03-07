@@ -10,6 +10,8 @@
 - [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Contributions](#contributions)
+- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -20,7 +22,7 @@ I've built React portfolio site to solidify my React skills and showcase my curr
 
 This portfolio was built whilst keeping in mind below:
 
-- Navigation using React Router, dynamicrendering, or another third party router
+- Navigation using React Router, dynamic rendering, or another third party router
 
 - Portfolio must render at least 6 components:
 
@@ -40,13 +42,11 @@ This portfolio was built whilst keeping in mind below:
 
 The following animation shows the web aplication's appearance:
 
-![portfolio demo](./assets/portfolio-demo3.gif)
+![portfolio demo]()
 
 ## Links
 
-[Helena's Portfolio Page](https://cyberrie.github.io/helenagilja-portfolio/)
-
-## My Process
+[Helena's Portfolio Page](https://cyberrie.github.io/react-portfolio-hg/)
 
 ## Built with...
 
@@ -66,16 +66,30 @@ The following animation shows the web aplication's appearance:
 
 ## Useful Resources
 
+-[React Docs](https://beta.reactjs.org/)
+
+-[React Bootstrap](https://react-bootstrap.github.io/)
+
+-[Bootstrap](https://getbootstrap.com/)
+
+-[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+-[npm gh-pages](https://github.com/tschaub/gh-pages)
+
 ## Author
 
-©️ Helena Gilja
+©️ Helena Gilja 2023 MIT License
 
 - Website - [Helena - Web Developer](https://cyberrie.github.io/helenagilja-portfolio/)
 
 - GitHub - [cyberrie](https://github.com/cyberrie)
 
-## Acknowledgments
+## Contributions
 
-- [rafgraph](https://github.com/rafgraph/spa-github-pages/tree/gh-pages): helped me resolve 404 refresh error in deployed React App. 404.html and script from index.html of the repo utilised
+- Reference to the problem of '404' on React static site refresh when deployed to GitHub pages found upon reading GitHub pages docs: [rafgraph](https://github.com/rafgraph/spa-github-pages)
 
--
+  - More specifically code in 404.html and index.html of a public folder is also referenced with the above and MIT License
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
