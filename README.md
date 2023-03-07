@@ -4,10 +4,7 @@
 - [Required Components](#acceptance-criteria)
 - [Portfolio Demo](#portfolio-demo)
 - [Links](#links)
-- [My process](#my-process)
 - [Built with](#built-with)
-- [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Contributions](#contributions)
@@ -38,11 +35,15 @@ This portfolio was built whilst keeping in mind below:
 
   - Contact Page: email, GitHub, LinkedIn, CV, Contact Form
 
-## Portfolio Demo
+## Portfolio ScreenShot & Demo
 
-The following animation shows the web aplication's appearance:
+Below animation demonstrates application functionality:
 
-![portfolio demo]()
+- ![portfolio demo]("./src/assetsSrc/re-portfolio.gif")
+
+External link to video, demonstrating application functionality:
+
+- [Helena's Portfolio Page](https://drive.google.com/file/d/1G2lpcsrMYLy0HST1Q9biEIgXToQxG_Pm/view?usp=sharing)
 
 ## Links
 
@@ -55,14 +56,6 @@ The following animation shows the web aplication's appearance:
 - React Bootstrap and vanilla Bootstrap
 - CSS
 - HTML
-
-## What I learned
-
-```
-
-```
-
-## Continued development
 
 ## Useful Resources
 
