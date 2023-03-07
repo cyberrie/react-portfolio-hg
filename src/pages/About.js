@@ -1,7 +1,6 @@
 import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataabout, meta, skills, services } from "../content";
+import { dataabout, skills, services } from "../content";
 import "../styles/about.css";
 
 function About() {
@@ -88,15 +87,3 @@ function About() {
   );
 }
 export default About;
-
-{
-  /* <Link to="skills" role="button" className="btn btn-link">
-        Show Skills
-      </Link>
-      <Link to="about" role="button" className="btn btn-link">
-        Hide Skills
-      </Link>
-      <Routes>
-        <Route path="skills" element={<Skills />} />
-      </Routes> */
-}

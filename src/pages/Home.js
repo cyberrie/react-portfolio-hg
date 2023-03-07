@@ -16,7 +16,7 @@ function Home() {
 
           <div className=" avatar-container order-1 order-lg-2">
             <div className="h_img-wrap ">
-              <img className="h_img" src={headshot} />
+              <img className="h_img" src={headshot} alt="helena-headshot" />
             </div>
           </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">

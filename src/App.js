@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio-hg">
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}

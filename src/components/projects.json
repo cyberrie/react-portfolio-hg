@@ -5,7 +5,7 @@
     "description": "Web App that generates meal and drink recipe, based on user mood selection. Retrieves data from third-party APIs",
     "linkDeployed": "https://cyberrie.github.io/MoodMix/",
     "linkRepo": "https://github.com/cyberrie/MoodMix",
-    "image": "./assets/moodmix-demo.gif"
+    "image": "../assets/moodmix-demo.gif"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "This is a Node.js command-line application takes in information about employees on a software engineering team, then generates a webpage. Developed using Test-Driven Development ",
     "linkDeployed": "https://drive.google.com/file/d/1xLqoTUv84jBp6aRmcj81XzrplRk0anPL/view",
     "linkRepo": "https://github.com/cyberrie/yourTeamProfile-Generator",
-    "image": "./assets/team.html-screenshot.png"
+    "image": "../assets/team.html-screenshot.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "A weather dashboard that runs in the browser. Server API was used to retrieve weather data for cities. ",
     "linkDeployed": "https://cyberrie.github.io/Weather-Dashboard/",
     "linkRepo": "https://github.com/cyberrie/Weather-Dashboard",
-    "image": "./assets/weather-forecast.gif"
+    "image": "../assets/weather-forecast.gif"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "A simple calendar application that allows a user to save events for each hour of the day, powered by jQuery",
     "linkDeployed": "https://cyberrie.github.io/Daily-Planner/",
     "linkRepo": "https://github.com/cyberrie/Daily-Planner",
-    "image": "./assets/daily-planner.gif"
+    "image": "../assets/daily-planner.gif"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "description": "JavaScript Quiz, developed using Web APIs",
     "linkDeployed": "https://cyberrie.github.io/Web-APIs-JavaScript-Quiz/",
     "linkRepo": "https://github.com/cyberrie/Web-APIs-JavaScript-Quiz",
-    "image": "./assets/coding-quiz.gif"
+    "image": "../assets/coding-quiz.gif"
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "description": "This app enables the user to generate a random password based on criteria they’ve selected.",
     "linkDeployed": "https://cyberrie.github.io/Password-Generator/",
     "linkRepo": "https://github.com/cyberrie/Password-Generator",
-    "image": "./assets/password-generator.png"
+    "image": "../assets/password-generator.png"
   }
 ]
