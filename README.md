@@ -69,6 +69,8 @@ External link to video, demonstrating application functionality:
 
 -[npm gh-pages](https://github.com/tschaub/gh-pages)
 
+-[React Router](https://reactrouter.com/en/main)
+
 ## Author
 
 ©️ Helena Gilja 2023 MIT License
