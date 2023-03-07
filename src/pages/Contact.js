@@ -3,7 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/contact.css";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faClipboard, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faClipboard,
+  faEnvelope,
+  faFile,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
@@ -28,7 +32,7 @@ function Contact() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              size="6x"
+              size="4x"
               color="rgb(242, 85, 7)"
             />
           </a>
@@ -41,22 +45,32 @@ function Contact() {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              size="6x"
+              size="4x"
               color="rgb(242, 85, 7)"
             />
           </a>
         </Col>
         <Col>
           <a
-            href="https://twitter.com/"
+            href="mailto:helena.gilj@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
               icon={faEnvelope}
-              size="6x"
+              size="4x"
               color="rgb(242, 85, 7)"
             />
+          </a>
+        </Col>
+
+        <Col>
+          <a
+            href="https://drive.google.com/file/d/1H0XY03-g_qUePOw905bdCT8jSocVGpiI/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFile} size="4x" color="rgb(242, 85, 7)" />
           </a>
         </Col>
 
@@ -68,7 +82,7 @@ function Contact() {
           >
             <FontAwesomeIcon
               icon={faClipboard}
-              size="6x"
+              size="4x"
               color="rgb(242, 85, 7)"
             />
           </a>
