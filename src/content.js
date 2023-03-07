@@ -55,7 +55,7 @@ const skills = [
   },
   {
     name: "Canva",
-    value: 32,
+    value: 82,
   },
 ];
 
