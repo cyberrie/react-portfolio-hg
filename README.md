@@ -38,11 +38,7 @@ This portfolio was built whilst keeping in mind below:
 
 Below animation demonstrates application functionality:
 
-- ![portfolio demo]("./public/assets/re-portfolio.gif")
-
-External link to video, demonstrating application functionality:
-
-- [Portfolio Demo](https://drive.google.com/file/d/1G2lpcsrMYLy0HST1Q9biEIgXToQxG_Pm/view?usp=sharing)
+![portfolio demo](./public/assets/re-portfolio.gif)
 
 ## Links
 
@@ -58,17 +54,17 @@ External link to video, demonstrating application functionality:
 
 ## Useful Resources
 
--[React Docs](https://beta.reactjs.org/)
+- [React Docs](https://beta.reactjs.org/)
 
--[React Bootstrap](https://react-bootstrap.github.io/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
--[Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
--[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+- [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
--[npm gh-pages](https://github.com/tschaub/gh-pages)
+- [npm gh-pages](https://github.com/tschaub/gh-pages)
 
--[React Router](https://reactrouter.com/en/main)
+- [React Router](https://reactrouter.com/en/main)
 
 ## Author
 
