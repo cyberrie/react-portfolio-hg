@@ -43,7 +43,7 @@ Below animation demonstrates application functionality:
 
 External link to video, demonstrating application functionality:
 
-- [Helena's Portfolio Page](https://drive.google.com/file/d/1G2lpcsrMYLy0HST1Q9biEIgXToQxG_Pm/view?usp=sharing)
+- [Portfolio Demo](https://drive.google.com/file/d/1G2lpcsrMYLy0HST1Q9biEIgXToQxG_Pm/view?usp=sharing)
 
 ## Links
 
@@ -74,8 +74,6 @@ External link to video, demonstrating application functionality:
 ## Author
 
 ©️ Helena Gilja 2023 MIT License
-
-- Website - [Helena - Web Developer](https://cyberrie.github.io/helenagilja-portfolio/)
 
 - GitHub - [cyberrie](https://github.com/cyberrie)
 
