@@ -8,14 +8,14 @@ import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <Router basename="/react-portfolio-hg">
+    <Router>
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/react-portfolio-hg" element={<Home />} />
+          <Route path="/react-portfolio-hg" element={<Home />} exact />
           <Route path="/react-portfolio-hg/about/*" element={<About />} />
           <Route path="/react-portfolio-hg/projects" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
