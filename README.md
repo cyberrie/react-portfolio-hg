@@ -74,9 +74,9 @@ Below animation demonstrates application functionality:
 
 ## Contributions
 
-- Reference to the problem of '404' on React static site refresh when deployed to GitHub pages found upon reading GitHub pages docs: [rafgraph](https://github.com/rafgraph/spa-github-pages)
+- Reference to the problem of '404' on React static site refresh when deployed to GitHub pages found upon reading GitHub pages docs and Stack Overflow and utilised from [rafgraph](https://github.com/rafgraph/spa-github-pages)
 
-  - More specifically code in 404.html and index.html of a public folder is also referenced with the above and MIT License
+  - Code in 404.html and index.html of a public folder is also referenced with the above and MIT License
 
 ## License
 
