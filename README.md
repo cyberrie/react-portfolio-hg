@@ -38,7 +38,7 @@ This portfolio was built whilst keeping in mind below:
 
 Below animation demonstrates application functionality:
 
-- ![portfolio demo]("./src/assetsSrc/re-portfolio.gif")
+- ![portfolio demo]("./public/assets/re-portfolio.gif")
 
 External link to video, demonstrating application functionality:
 
