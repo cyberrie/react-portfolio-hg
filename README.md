@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [Required Components](#acceptance-criteria)
+- [Required Components](#required-components)
 - [Portfolio Demo](#portfolio-demo)
 - [Links](#links)
 - [Built with](#built-with)
@@ -9,7 +9,6 @@
 - [Author](#author)
 - [Contributions](#contributions)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -35,7 +34,7 @@ This portfolio was built whilst keeping in mind below:
 
   - Contact Page: email, GitHub, LinkedIn, CV, Contact Form
 
-## Portfolio ScreenShot & Demo
+## Portfolio Demo
 
 Below animation demonstrates application functionality:
 
